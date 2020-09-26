@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>MSInspire | Workshops</title>
+    <title>Azure Fundamentals | MSInspire</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -103,7 +103,151 @@
         </div>
         <!-- Hero End -->
         <!--? Workshop Category Area Start -->
-       
+
+        <section style="padding: 100px 50px 100px 50px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <iframe width="100%" height="415" src="https://www.youtube.com/embed/t52HUcC6kHY"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen style="padding-bottom: 20px;"></iframe>
+
+                        <br>
+
+                        <button type="button" class="btn btn-primary btn-lg" style="width: 100%;"><a
+                                href="https://github.com/gat786/Workshops/tree/new-system/prev-workshops/Azure%20Functions">Go
+                                to Github Repo</a></button>
+
+
+
+
+
+                        <br> <br>
+                        <section>
+                            <h2>Writing your first Azure Function using nodejs and deploying it directly to Azure using
+                                VSCode</h2>
+                            <hr>
+                            <p>While you can directly build azure functions in Azure directly here i am going to show
+                                you
+                                guys how you can do it using VS-Code and some extensions and also will show you guys how
+                                you
+                                can test them locally on your machine and deploy it directly from the VS-Code without
+                                even
+                                the need of going to Azure Portal.</p>
+
+                            <p>First of all you will require a Azure Account and Azure Functions Extensions installed on
+                                your system.</p>
+                            <img src="https://github.com/gat786/Workshops/raw/new-system/prev-workshops/Azure%20Functions/assets/extensions-required.png"
+                                alt="">
+                            <br><br>
+                            <p>1. After you have the extensions installed create a folder in which you would like to
+                                create
+                                the azure function.</p>
+                            <p>Note that Azure Functions can be created in multiple languages and each of them has
+                                complete
+                                functionality but we are going to focus on creating one with NodeJs.</p>
+
+                            <p>2. Go to that folder and open it in vs code. After opening with vs-code you can click F1
+                                in
+                                VS-code to get commands search create a Azure Function from them.</p>
+                            <img src="https://github.com/gat786/Workshops/raw/new-system/prev-workshops/Azure%20Functions/assets/commands-snippet.png"
+                                alt="">
+                            <br><br>
+
+                            <p>3. There needs to be a trigger to every azure function to run and while there are a
+                                number of
+                                triggers for every function here we are going to focus on creating a azure function from
+                                http-trigger so select that.</p>
+                            <p>4. After selecting the trigger it will ask you for the language that you prefer here we
+                                are
+                                working with nodejs so we will select Javascript while if you prefer any other language
+                                you
+                                can go ahead and select that language.</p>
+                            <p>Note: -</p>
+
+                            <p>To test nodejs functions locally you would need azure-functions-core-tools installed.</p>
+
+                            <p>You can install it like this for v3</p>
+
+
+                            <pre><code>npm i -g azure-functions-core-tools@3 --unsafe-perm true
+</code></pre>
+
+                            <p>You can do the same for v2</p>
+
+
+                            <pre><code>npm i -g azure-functions-core-tools@2 --unsafe-perm true
+</code></pre>
+                            <p>In this tutorial we are going with v2 as it is the version that supports the nodejs
+                                version
+                                that i have on my system. You can choose v3 the working somewhat remains the same you
+                                might
+                                need to make some changes tho.</p>
+                            <p>After you have installed all the tools as said and created you are ready to go and test
+                                out
+                                writing your first azure functions and then just click F5 in the VS-Code window to run
+                                it.
+                            </p>
+                            <p>Deploying this to Azure is more sweet than this. You just have to click on the Azure
+                                button
+                                on left hand side of your vscode window and it will probably show two options if you are
+                                signed into azure those two options should look like this.</p>
+                            <img src="https://github.com/gat786/Workshops/raw/new-system/prev-workshops/Azure%20Functions/assets/options-in-azure-tab.png"
+                                alt="">
+                            <br><br>
+                            <p>From these two options click on the drop down arrow near local functions and it should
+                                show
+                                the functions which are in the current project window.</p>
+                            <p>After finding your function on which you are working on you just have to right click on
+                                its
+                                name and select the option to deploy to azure inorder to deploy it to azure. It will ask
+                                you
+                                some questions such as your id for function and region you want to deploy it to after
+                                you
+                                have done that it should automatically deploy it to the azure cloud and you finally have
+                                a
+                                azure function deployed on to the cloud. Hurray.!</p>
+                            <img src="https://github.com/gat786/Workshops/raw/new-system/prev-workshops/Azure%20Functions/assets/deploy-button.jpg"
+                                alt="">
+                        </section>
+
+
+
+
+
+
+                    </div>
+                    <div class="col">
+                        <h2>Workshop By</h2>
+                        <br>
+                        <div class="container">
+                            <div class="row mb-3">
+
+
+                                <div class="d-flex flex-row border rounded" width="100%">
+                                    <div class="p-0 w-25">
+                                        <img src="/assets/img/gallery/team/sunder.png" class="img-thumbnail border-0" />
+                                    </div>
+                                    <div class="pl-3 pt-2 pr-2 pb-2 w-75 border-left">
+                                        <h4><b>Ganesh Tiwari</b></h4>
+                                        <h5>Founder Webex Studio</h5>
+                                        <ul class="m-0 float-left" style="list-style: none; margin:0; padding: 0">
+                                            <li><i class="fab fa-facebook-square"></i> Facebook</li>
+                                            <li><i class="fab fa-twitter-square"></i> Twitter</li>
+                                        </ul>
+                                        <p class="text-right m-0"><a href="#" class="btn btn-primary"><i
+                                                    class="fab fa-github"></i> Github Profile</a></p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+        </section>
 
 
 
@@ -138,7 +282,7 @@
                                     <li>
                                         <p>Address : Accra, Ghana</p>
                                     </li>
-                                    <li><a href="#">Email : msinspire@outlook.com</a></li>
+                                    <li><a href="mailto:mspinspire@outlook.com">Email : mspinspire@outlook.com</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -174,7 +318,7 @@
                                          onblur="this.placeholder = ' Email Address '">
                                          <div class="form-icon">
                                              <button type="submit" name="submit" id="newsletter-submit"
-                                             class="email_icon newsletter-submit button-contactForm"><img src="/assets/img/gallery/form.png" alt=""></button>
+                                             class="email_icon newsletter-submit button-contactForm"><img src="assets/img/gallery/form.png" alt=""></button>
                                          </div>
                                          <div class="mt-10 info"></div>
                                      </form>
@@ -189,7 +333,7 @@
                     <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                         
                         <div class="footer-logo mb-20">
-                        <a href="index.html"><img src="/assets/img/logo/logo2_footer.png" alt=""></a>
+                        <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
